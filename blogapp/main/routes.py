@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request, flash
-from blogapp.models import Post, User
+from blogapp.models import Post,User
 from blogapp.main.form import contactForm
 from blogapp import mail
 from flask_mail import Message
@@ -37,14 +37,14 @@ def contact():
         msg = Message(f'New Message from {current_user.username}', sender=f'{user.email}',
                       recipients=['wishotstudio@gmail.com'])
         msg.body = f"""
-        Name :  {form.name.data}
-        
-        Email :  {form.contact_email.data}
-        
-        Subject :  {form.subject.data}
-        
-        Message :  {form.message.data}
-        """
+           Name :  {form.name.data}
+
+           Email :  {form.contact_email.data}
+
+           Subject :  {form.subject.data}
+
+           Message :  {form.message.data}
+           """
         mail.send(msg)
         flash('your message have been sent', 'success')
 

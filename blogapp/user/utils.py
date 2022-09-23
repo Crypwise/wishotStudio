@@ -1,6 +1,6 @@
 from flask_mail import Message
 from blogapp import mail
-from flask import render_template, current_app, app
+from flask import render_template, current_app
 from threading import Thread
 import os
 import secrets
@@ -47,6 +47,4 @@ def send_email(subject, sender, recipients, text_body, html_body):
     thr = Thread(target=send_async_email, args=[app, msg])
     thr.start()
     return thr
-
-
 
