@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa02835-d608-4c51-9742-6c8b4ec2a9ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogapp/static/profile_pics/f65b37d52d48ecca.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogapp/blog.db" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/blog.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogapp/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogapp/main/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/main/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogapp/post/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/post/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogapp/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogapp/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogapp/user/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogapp/user/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -284,7 +273,7 @@
       <workItem from="1663853759197" duration="277000" />
       <workItem from="1663854191530" duration="889000" />
       <workItem from="1663867558295" duration="625000" />
-      <workItem from="1663928182025" duration="1582000" />
+      <workItem from="1663928182025" duration="2411000" />
     </task>
     <servers />
   </component>
